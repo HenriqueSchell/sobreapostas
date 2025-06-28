@@ -68,7 +68,6 @@ html, body {
     height: 100%;
     margin: auto;
     max-width: 1000px;
-    border-radius: 20px;
     box-shadow: 2px 2px 2px #000;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
@@ -78,10 +77,11 @@ html, body {
     color:#000;
     padding-bottom: 20px;
     font-weight: 900;
+    font-family: "Playfair Display", serif;
 }
 
 .bg-title{
-    background: linear-gradient(to right,#ffa600 , rgba(255, 215, 0, 0) 70%); 
+    background: linear-gradient(to right,#ffa600 , rgba(255, 215, 0, 0) 60%); 
     max-height: 40px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -93,6 +93,7 @@ html, body {
     grid-template-columns: 60% 40%;
     gap:40px;
     align-items: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .text{
@@ -110,6 +111,29 @@ html, body {
 
 .structure{
     padding-bottom: 20px;
+}
+
+#botao{
+    color: white;
+    background-color: rgb(2, 2, 139);
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    border-radius:  40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#link-botao{
+    text-decoration: none;
+    color: #fff;
+}
+
+#botao:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+    background-color:rgb(5, 5, 199);
 }
 
 
@@ -161,7 +185,7 @@ html, body {
         flex-direction: column;
     }
     .bg-title-large{
-        background: linear-gradient(to right,#ffa600 , rgba(255, 215, 0, 0) 90%); 
+        background: linear-gradient(to right,#ffa600 , rgba(255, 215, 0, 0) 100%); 
         max-height: 80px;
         margin-bottom: 10px;
         border-radius: 10px;
